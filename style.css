@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(81, 111, 209);
+}
+
+.form {
+    background-color: rgb(16, 67, 233);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    color: white;
+    text-align: center;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.form p {
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.form input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    background-color: white;
+    color: rgb(16, 67, 233);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100%;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.resultado {
+    width: 80%;
+    max-width: 600px;
+    background-color: white;
+    color: rgb(16, 67, 233);
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    display: none;
+}
+
+.resultado table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.resultado th, .resultado td {
+    border: 1px solid rgb(16, 67, 233);
+    padding: 10px;
+    text-align: left;
+}
+
+.resultado th {
+    background-color: rgb(16, 67, 233);
+    color: white;
+}
+
+.resultado td {
+    color: black;
+}
